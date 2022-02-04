@@ -3,6 +3,7 @@ Kortspill for 2 spillere.
 
 Bruksveiledning
 Trykk på code i repoet og last ned zip
+
 ![image](https://user-images.githubusercontent.com/45972444/152490649-099fa5af-496e-4689-bd42-1ebfc1d5b888.png)
 
 Dra ut inholdet i .zip filen til skrivebordet ditt
