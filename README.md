@@ -13,7 +13,6 @@ Dra ut inholdet i .zip filen til skrivebordet ditt
 
 Første gang spillet starter trykk på start spill
 
-Spill logikk
 Spillet spilles ved at runden starter og premiekort blir valgt ut for spill
 
 Spillere spiller runde ved å trykke på spill runde knappen nederst
