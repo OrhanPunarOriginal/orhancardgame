@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+    <div  class="centers">
+        <button onclick="startSpill()" id="startSpill" class="max"> Start Spill </button>
+    </div>
+
+
+    <div id="game" class="hideAll center">
+        <h3 id="gameMaster">Premiebunke: </h3>
+        <h4>Premiekort: <span id="gameMasterKort"></span></h4>
+        <h4 ></h4>
+        <br>
+        <h4>Runde:  <span id="runde"></span></h4>
+        <br>
+        <h4 id="spillerEn">Spiller 1: </h4>
+        <h5>Kort: <span id="spillerEnKort"></span></h5>
+        <h7 >Poeng: <span id="spillerEnPoeng"></span><span id="vunnetEn"></span></h7>
+        <br><br>
+        <h4 id="spillerTo">Spiller 2: </h4>
+        <h5>Kort: <span id="spillerToKort"></span></h5>
+        <h7>Poeng: <span id="spillerToPoeng"></span><span id="vunnetTo"></span></h7>
+        <br>
+        <h4 id="eliminertBunke">Eliminert bunke: </h4>
+        <button onclick="nesteRunde()" class="hideAll" id="nesteRunde">Neste runde</button>
+        <button onclick="spillRunde()" id="spillRunde">Spill runde</button>
+        <button onclick="restartSpill()" id="restartSpill" class="hideAll">Restart spill</button>
+    </div>
+
+</body>
+<script defer type="text/javascript" src="kortSpill.js"></script>
+
+</html>
